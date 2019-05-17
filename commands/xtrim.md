@@ -31,7 +31,10 @@ and it is usually what you want.
 The command returns the number of entries deleted from the stream.
 
 ```cli
-XADD mystream * field1 A field2 B field3 C field4 D
+XADD mystream * field1 A
+XADD mystream * field2 B
+XADD mystream * field3 C
+XADD mystream * field4 D
 XTRIM mystream MAXLEN 2
 XRANGE mystream - +
 ```
