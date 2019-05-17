@@ -43,7 +43,7 @@ Example:
 
 The last ID returned is `1526985712947-0`, since the sequence number is
 already zero, the next ID I'll use instead of the `+` special ID will
-be `1526985712946-18446744073709551615`, or just `18446744073709551615`:
+be `1526985712946-18446744073709551615`, or just `1526985712946`:
 
 ```
 > XREVRANGE writers 1526985712946-18446744073709551615 - COUNT 2
