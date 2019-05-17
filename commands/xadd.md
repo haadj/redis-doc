@@ -20,7 +20,7 @@ specified is the `*` character (asterisk ASCII character). However, while
 useful only in very rare cases, it is possible to specify a well-formed ID, so
 that the new entry will be added exactly with the specified ID.
 
-IDs are specified by two numbers separated by a `-` character:
+IDs are specified by two numbers separated by a `-` character (hyphen ASCII character):
 
     1526919030474-55
 
